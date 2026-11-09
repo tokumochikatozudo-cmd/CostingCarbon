@@ -1,0 +1,5 @@
+# Redirect old Netlify subdomain → canonical custom domain (301 permanent, forced)
+https://peppy-gingersnap-195f89.netlify.app/* https://phantommaestro.id/:splat 301!
+
+# Redirect www → non-www canonical (301 permanent)
+https://www.phantommaestro.id/* https://phantommaestro.id/:splat 301!
